@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang=" en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar Pedido</title>
+</head>
+<body>
+    <h1>Realiza tu pedido</h1>
+
+    <form action="pedido.js"></form>
+        <label for="Nombre">Danos tu nombre Taconauta</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Name">
+
+        <br><br>
+
+        <label for="mesa">Tu mesa</label><br>
+        <input type="number" id="mesa" name="mesa" placeholder="4">
+
+        <br><br>
+
+        <p>¿Para comer aquí o para llevar?</p>
+        <input type="radio" id="comer aquí" name="aquiollevar" placeholder="Comer Aquí">
+        <label for="comer aquí">Comer Aquí</label><br>
+        <input type="radio" name="aquiollevar" id="para llevar" placeholder="Para Llevar">
+        <label for="para llevar">Para Llevar</label><br>
+
+        <br><br>
+
+        <p>Tipo de taco</p>
+        <input type="checkbox" name="Mercurio" id="Mercurio" value="Mercurio">
+        <label for="Mercurio">Mercurio</label>
+        <input type="number" name="mercurioCuantos" id="mercurioCuantos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" name="Marte" id="Marte" value="Marte">
+        <label for="Marte">Marte</label>
+        <input type="number" name="marteCuantos" id="marteCuantos" placeholder="¿Cuántos?"><br>
+
+        <br><br>
+
+        <p>Bebida</p>
+        <select name="refresco" id="refresco">
+            <option value="Coca">Coca</option>
+            <option value="Yoli">Yoli</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Delaware Punch">Delaware Punch</option>
+            <option value="Fresca">Fresca</option>
+            <option value="Sangría">Sangría</option>
+        </select>
+        
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+    </form>
+
+</body>
+</html>
